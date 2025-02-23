@@ -1,5 +1,5 @@
 body {
-            background-image: url('./img/fon-face-xo.png'); /* Даём ссылку на изображение */
+            background-image: url('./img/phon.png'); /* Даём ссылку на изображение */
             background-repeat: no-repeat; /* Убираем повторение изображения */
             background-size: cover; /* Изображение во весь экран */
             background-position: -200px center; /* Изображение смещено на 200px в лево и выравнено по центру */
