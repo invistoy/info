@@ -1,37 +1,22 @@
 body {
-            -background-image: url('./img/phon-xcpro.png'); /* Даём ссылку на изображение fon-face-xo.png */
-            background-repeat: no-repeat; /* Убираем повторение изображения */
-            background-size: cover; /* Изображение во весь экран */
-            background-position: -10vw center; /* Изображение смещено на 200px в лево и выравнено по центру */
-            background-color: black; /* Остальной фон чёрный */
-            
         .qwer {
-        background-image: url('./img/phon-xcpro.png');
-        -background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 19vw center;
-        -background-color: red;
+        background-image: url('img/phon-xcpro.png'); /* Фон блока */
+        background-repeat: no-repeat; /* Фон не повторяется */
+        background-position: 19vw center; /* Смещение */
         }
         }
         .one {
-            display: grid;
+            display: grid; /* Создаём сетку */
             grid-template-columns: 9fr 7fr; /* Разделение экрана на столбики */
             height: 98vh; /* Высота */
-            padding: 0px; /* Отступ */
-            gap: 0px; /* Отступ между частями */
-
         }
         .two {
-            display: grid;
+            display: grid; /* Создаём сетку */
             grid-template-rows: 25% 12.5% 15%; /* Разделение экрана на строки */
             height: 96vh; /* Высота */
-            padding: 0px; /* Отступ */
             gap: 2px; /* Отступ между частями */
         }
         .three {
-            padding: 0px;
-            -text-align: center; /* Выравнивание */
-            -background-color: red; /* Цвет фона */
         }
         .big-text {
             margin-top: 0; /* Убираем верхний отступ */
