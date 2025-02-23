@@ -1,10 +1,10 @@
 body {
-            -background-image: url('./img/phon.png'); /* Даём ссылку на изображение fon-face-xo.png */
+            -background-image: url('./img/phon-xcpro.png'); /* Даём ссылку на изображение fon-face-xo.png */
             background-repeat: no-repeat; /* Убираем повторение изображения */
             background-size: cover; /* Изображение во весь экран */
             background-position: -10vw center; /* Изображение смещено на 200px в лево и выравнено по центру */
             background-color: black; /* Остальной фон чёрный */
-            }
+            
         .qwer {
         background-image: url('./img/phon-xcpro.png');
         -background-size: cover;
