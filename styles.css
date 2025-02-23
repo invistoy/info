@@ -1,34 +1,28 @@
 body {
-            background-image: url('./img/phon.png'); /* Даём ссылку на изображение */
+            -background-image: url('./img/phon.png'); /* Даём ссылку на изображение fon-face-xo.png */
             background-repeat: no-repeat; /* Убираем повторение изображения */
             background-size: cover; /* Изображение во весь экран */
-            background-position: calc(200px - 10vw) center; /* Изображение смещено на 200px в лево и выравнено по центру */
+            background-position: -10vw center; /* Изображение смещено на 200px в лево и выравнено по центру */
             background-color: black; /* Остальной фон чёрный */
-@media (max-width: 1440px) {
-    body {
-        background-position: calc(150px - 15vw) center; /* Увеличиваем сдвиг */
-    }
-}
-@media (max-width: 1024px) {
-    body {
-        background-position: calc(500px - 40vw) center; /* Сильнее уводим влево */
-    }
-}
-@media (max-width: 768px) {
-    body {
-        background-position: calc(800px - 80vw) center; /* Почти уводим за экран */
-    }
-}
-/* Очень маленькие экраны (425px и ниже) */
-@media (max-width: 425px) {
-    body {
-        background-position: calc(1000px - 104vw) center; /* Максимальный сдвиг влево */
-    }
-}
+            }
+        .qwer {
+        background-image: url('./img/phon-xcpro.png');
+        -background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 19vw center;
+        -background-color: red;
+        }
+        }
+        .one {
+            display: grid;
+            grid-template-columns: 9fr 7fr; /* Разделение экрана на столбики */
+            height: 98vh; /* Высота */
+            padding: 0px; /* Отступ */
+            gap: 0px; /* Отступ между частями */
+
         }
         .two {
             display: grid;
-            grid-template-columns: 9fr 7fr; /* Разделение экрана на столбики */
             grid-template-rows: 25% 12.5% 15%; /* Разделение экрана на строки */
             height: 96vh; /* Высота */
             padding: 0px; /* Отступ */
@@ -36,7 +30,7 @@ body {
         }
         .three {
             padding: 0px;
-            text-align: enter; /* Выравнивание */
+            -text-align: center; /* Выравнивание */
             -background-color: red; /* Цвет фона */
         }
         .big-text {
