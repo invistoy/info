@@ -1,0 +1,29 @@
+body {
+    .dropdown {
+        color: #ffffff;
+        cursor: pointer;
+        font-weight: bold;
+        font-family: "Century Gothic";
+    }
+    .dropdown-content {
+	    max-width: 160px;
+        padding: 30px;
+        margin-top: -15px;
+        background: black; /* Цвет фона */
+        border-radius: 14px; /* Скругление углов */
+        box-shadow: 0 4px 8px rgba(195, 195, 195, 0.67); /* Тень */
+        font-family: "Century Gothic";
+    }
+    .dropdown-content a {
+        display: block;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .dropdown-content a:hover {
+        text-decoration: underline;
+    }
+    summary {
+        display: block; /* Убирает маркер и делает элемент блочным */
+        cursor: pointer; /* Сохраняет возможность раскрытия */
+    }
+}

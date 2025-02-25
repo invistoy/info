@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+
+    .qwer {
+        background-image: url('../img/phon-xcpro.png'); /* Фон блока */
+        background-repeat: no-repeat; /* Фон не повторяется */
+        background-position: 19vw center; /* Смещение */
+    }
+
+    .diskor {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        height: 20vh;
+    }
+
+    .one {
+        display: grid; /* Создаём сетку */
+        grid-template-columns: 9fr 7fr; /* Разделение экрана на столбики */
+        height: 98vh; /* Высота */
+    }
+
+    .two {
+        display: grid; /* Создаём сетку */
+        grid-template-rows: 25% 12.5% 20%; /* Разделение экрана на строки */
+        height: 96vh; /* Высота */
+        gap: 2px; /* Отступ между частями */
+    }
+
+    .thor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 3fr;
+        height: 99vh;
+    }
+
+    .big-text {
+        line-height: 0.7; /* Увеличиваем отступ сверху */
+        font-size: 5vw; /* Увеличиваем размер текста */
+        font-weight: bold; /* Делаем жирным, как заголовок */
+        color: white;
+        font-family: "Century Gothic";
+    }
+
+    .lite-text {
+        line-height: 2; /* Увеличиваем отступ сверху */
+        padding-left: 8px; /* Увеличивает отступ слева */
+        color: white;
+        font-family: "Century Gothic";
+    }
+
+    .lite-ext {
+        line-height: 2;
+        text-decoration: none;
+        color: white;
+        font-family: "Century Gothic";
+    }
+
+    .xo {
+        line-height: 0.7; /* Увеличиваем отступ сверху */
+        font-size: 5vw; /* Увеличиваем размер текста */
+        font-weight: bold; /* Делаем жирным, как заголовок */
+        color: rgba(255, 255, 255, 0.2);
+        font-family: "Century Gothic";
+    }
+
+    .xo1 {
+        line-height: 0.7; /* Увеличиваем отступ сверху */
+        font-size: 5vw; /* Увеличиваем размер текста */
+        font-weight: bold; /* Делаем жирным, как заголовок */
+        color: rgba(255, 0, 0, 0.2);
+        font-family: "Century Gothic";
+    }
+
+    .xo2 {
+        line-height: 0.7; /* Увеличиваем отступ сверху */
+        font-size: 5vw; /* Увеличиваем размер текста */
+        font-weight: bold; /* Делаем жирным, как заголовок */
+        color: rgba(0, 255, 251, 0.2);
+        font-family: "Century Gothic";
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 60px;
+        font-family: "Century Gothic";
+    }
+    th, td {
+        border: 1px solid rgba(255, 255, 255, 0.19);
+        padding: 8px;
+        text-align: left;
+        color: white;
+    }
+    tr > td ~ td {
+        text-align: center;
+    }
+    th {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+
+}
